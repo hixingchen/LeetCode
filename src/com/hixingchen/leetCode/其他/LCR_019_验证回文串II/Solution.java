@@ -1,6 +1,4 @@
-package com.hixingchen.leetCode.简单题测试;
-
-import java.util.*;
+package com.hixingchen.leetCode.其他.LCR_019_验证回文串II;
 
 public class Solution {
     public boolean validPalindrome(String s) {
