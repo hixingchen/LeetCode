@@ -1,10 +1,11 @@
-package com.hixingchen.leetCode.简单题测试;
+package com.hixingchen.leetCode.简单.L1051_高度检查器;
 
-import java.util.*;
+import java.util.Arrays;
 
 public class Solution {
     public int heightChecker(int[] heights) {
-        int[] arr = new int[101];
+        int m = Arrays.stream(heights).max().getAsInt();
+        int[] arr = new int[m+1];
         for (int height : heights) {
             arr[height]++;
         }

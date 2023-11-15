@@ -6,7 +6,6 @@ import com.hixingchen.leetCode.简单题测试.Solution;
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        Boolean huiWen = solution.isHuiWen("s1s1s");
-        System.out.println(huiWen);
+
     }
 }
