@@ -1,6 +1,6 @@
-package com.hixingchen.leetCode.简单题测试;
+package com.hixingchen.leetCode.简单.L1385_两个数组间的距离值;
 
-import java.util.*;
+import java.util.Arrays;
 
 public class Solution {
     public int findTheDistanceValue(int[] arr1, int[] arr2, int d) {
