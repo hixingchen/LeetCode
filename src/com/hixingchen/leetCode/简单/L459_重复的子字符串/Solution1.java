@@ -1,8 +1,9 @@
-package com.hixingchen.leetCode.简单题测试;
+package com.hixingchen.leetCode.简单.L459_重复的子字符串;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
-public class Solution {
+public class Solution1 {
     public boolean repeatedSubstringPattern(String s) {
         int length = s.length();
         int size = length/2+1;
