@@ -6,9 +6,5 @@ import com.hixingchen.leetCode.简单题测试.Solution;
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[] arr1 = new int[]{2,1,100,3};
-        int[] arr2 = new int[]{-5,-2,10,-3,7};
-        int theDistanceValue = solution.findTheDistanceValue(arr1, arr2, 6);
-        System.out.println(theDistanceValue);
     }
 }
