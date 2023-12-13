@@ -1,23 +1,22 @@
-package com.hixingchen.leetCode.简单题测试;
+package com.hixingchen.leetCode.简单.L496_下一个更大元素I;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Stack;
 
+/**
+ * 单调栈 + 哈希表
+ */
 public class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Stack<Integer> stack = new Stack<>();
         int[] result = new int[nums1.length];
         Map<Integer,Integer> target = new HashMap<>();
-        target.put(nums2[nums2.length-1],-1);
-        stack.push(nums2[nums2.length-1]);
-        for (int i = nums2.length - 2; i >= 0; i--) {
-            while (stack.size() > 0 && stack.peek() < nums2[i]){
+        for (int i = nums2.length - 1; i >= 0; i--) {
+            while (!stack.isEmpty() && stack.peek() < nums2[i]){
                 stack.pop();
             }
-            if (stack.size() == 0){
-                target.put(nums2[i],-1);
-            }else {
-                target.put(nums2[i],stack.peek());
-            }
+            target.put(nums2[i],stack.isEmpty()?-1:stack.peek());
             stack.push(nums2[i]);
         }
         for (int i = 0; i < nums1.length; i++) {
