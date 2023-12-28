@@ -1,6 +1,6 @@
-package com.hixingchen.leetCode.简单题测试;
+package com.hixingchen.leetCode.简单.L234_回文链表;
 
-import java.util.*;
+import java.util.Stack;
 
 public class Solution {
     public boolean isPalindrome(ListNode head) {
