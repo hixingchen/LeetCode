@@ -9,6 +9,9 @@ public class Solution {
     }
 
     public int height(TreeNode root) {
+        for (int i = 0; i < 1000; i++) {
+            System.out.println("hello");
+        }
         if (root == null) {
             return 0;
         }
