@@ -3,19 +3,20 @@ package com.hixingchen.leetCode.其他.LCP_28_采购方案;
 import java.util.Arrays;
 
 public class Solution {
-    public int purchasePlans(int[] nums, int target) {
-        int mod = 1_000_000_007;
-        int ans = 0;
-        Arrays.sort(nums);
-        int left = 0, right = nums.length - 1;
-        while (left < right) {
-            if (nums[left] + nums[right] > target) right--;
-            else {
-                ans += right - left;
-                left++;
+    public int minNumber(int[] nums1, int[] nums2) {
+        Arrays.sort(nums1);
+        Arrays.sort(nums2);
+        int i = 0;
+        int j = 0;
+        while (i<nums1.length && j<nums2.length){
+            if (nums1[i]<nums2[j]){
+                i++;
+            }else if (nums1[i]>nums2[j]){
+                j++;
+            }else {
+                return nums1[i];
             }
-            ans %= mod;
         }
-        return ans % mod;
+        return Math.min(nums1[0]*10+nums2[0],nums2[0]*10+nums1[0]);
     }
 }
