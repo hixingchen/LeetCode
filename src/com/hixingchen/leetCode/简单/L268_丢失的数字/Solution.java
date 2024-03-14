@@ -1,6 +1,4 @@
-package com.hixingchen.leetCode.简单题测试;
-
-import java.util.*;
+package com.hixingchen.leetCode.简单.L268_丢失的数字;
 
 public class Solution {
     public int missingNumber(int[] nums) {

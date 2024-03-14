@@ -14,10 +14,5 @@ import java.util.Map;
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        ListNode target = new ListNode(1);
-        target.next = new ListNode(2);
-        target.next.next = new ListNode(2);
-        target.next.next.next = new ListNode(1);
-        solution.isPalindrome(target);
     }
 }

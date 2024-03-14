@@ -1,4 +1,4 @@
-package com.hixingchen.leetCode.简单.L590_N叉树的后序遍历;
+package com.hixingchen.leetCode.简单题测试;
 
 import java.util.List;
 
