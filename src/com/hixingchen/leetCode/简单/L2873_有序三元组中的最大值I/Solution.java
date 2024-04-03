@@ -1,8 +1,4 @@
-package com.hixingchen.leetCode.简单题测试;
-
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+package com.hixingchen.leetCode.简单.L2873_有序三元组中的最大值I;
 
 public class Solution {
     public long maximumTripletValue(int[] nums) {
