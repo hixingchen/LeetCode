@@ -1,13 +1,14 @@
-package com.hixingchen.leetCode.简单题测试;
+package com.hixingchen.leetCode.其他.LCP_33_蓄水;
 
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import java.util.PriorityQueue;
 
+/**
+ * 贪心+优先队列
+ */
 public class Solution {
     public int storeWater(int[] bucket, int[] vat) {
         int len = bucket.length;
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b)->b[0]-a[0]);
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b)->b[0]-a[0]);
         int cnt = 0;
         for (int i = 0; i < len; i++) {
             if (bucket[i] == 0 && vat[i] != 0){
