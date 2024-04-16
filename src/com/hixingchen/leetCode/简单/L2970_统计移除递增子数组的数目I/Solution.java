@@ -1,8 +1,4 @@
-package com.hixingchen.leetCode.简单题测试;
-
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+package com.hixingchen.leetCode.简单.L2970_统计移除递增子数组的数目I;
 
 public class Solution {
     public int incremovableSubarrayCount(int[] nums) {
