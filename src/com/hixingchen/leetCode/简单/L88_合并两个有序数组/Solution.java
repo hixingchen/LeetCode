@@ -1,8 +1,4 @@
-package com.hixingchen.leetCode.简单题测试;
-
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+package com.hixingchen.leetCode.简单.L88_合并两个有序数组;
 
 public class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
@@ -10,7 +6,7 @@ public class Solution {
         m--;
         n--;
         int cur;
-        while (n>=0 && m>=0){
+        while (n>=0 || m>=0){
             if (m == -1){
                 cur = nums2[n--];
             }else if (n == -1){
