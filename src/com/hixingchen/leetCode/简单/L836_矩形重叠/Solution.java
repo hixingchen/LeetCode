@@ -1,8 +1,4 @@
-package com.hixingchen.leetCode.简单题测试;
-
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+package com.hixingchen.leetCode.简单.L836_矩形重叠;
 
 public class Solution {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
