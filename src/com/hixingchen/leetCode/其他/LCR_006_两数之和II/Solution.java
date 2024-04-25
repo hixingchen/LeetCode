@@ -1,9 +1,8 @@
-package com.hixingchen.leetCode.简单题测试;
+package com.hixingchen.leetCode.其他.LCR_006_两数之和II;
 
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
+/**
+ * 双指针
+ */
 public class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int left = 0;
