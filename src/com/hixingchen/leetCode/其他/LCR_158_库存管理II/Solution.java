@@ -1,8 +1,4 @@
-package com.hixingchen.leetCode.简单题测试;
-
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+package com.hixingchen.leetCode.其他.LCR_158_库存管理II;
 
 public class Solution {
     public int inventoryManagement(int[] stock) {
