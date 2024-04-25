@@ -5,19 +5,15 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Solution {
-    public int[] twoSum(int[] numbers, int target) {
-        int left = 0;
-        int right = numbers.length-1;
-        while (left<right){
-            int temp = numbers[left]+numbers[right];
-            if (temp == target){
-                return new int[]{left,right};
-            }else if (temp<target){
-                left++;
-            }else {
-                right--;
+    public boolean checkStraightLine(int[][] coordinates) {
+        Arrays.sort(coordinates,(a,b)->a[0]-b[0]);
+        int xSub = coordinates[1][0] - coordinates[0][0];
+        int ySub = coordinates[1][1] - coordinates[0][1];
+        for (int i = 2; i < coordinates.length; i++) {
+            if ((coordinates[i][0]-coordinates[i-1][0])*ySub != xSub*(coordinates[i][1]-coordinates[i-1][1])){
+                return false;
             }
         }
-        return new int[]{-1,-1};
+        return true;
     }
 }
