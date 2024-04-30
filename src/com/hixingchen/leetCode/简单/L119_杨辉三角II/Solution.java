@@ -1,8 +1,7 @@
-package com.hixingchen.leetCode.简单题测试;
+package com.hixingchen.leetCode.简单.L119_杨辉三角II;
 
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Solution {
     public List<Integer> getRow(int rowIndex) {
