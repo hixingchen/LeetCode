@@ -1,8 +1,4 @@
-package com.hixingchen.leetCode.简单题测试;
-
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+package com.hixingchen.leetCode.简单.L3083_字符串及其反转中是否存在同一子字符串;
 
 public class Solution {
     public boolean isSubstringPresent(String s) {
