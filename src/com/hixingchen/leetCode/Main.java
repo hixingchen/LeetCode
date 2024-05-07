@@ -6,10 +6,7 @@ import com.hixingchen.leetCode.简单题测试.ListNode;
 import com.hixingchen.leetCode.简单题测试.Solution;
 import com.hixingchen.leetCode.简单题测试.TreeNode;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
