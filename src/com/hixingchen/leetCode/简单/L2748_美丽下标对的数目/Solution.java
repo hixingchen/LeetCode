@@ -1,8 +1,4 @@
-package com.hixingchen.leetCode.简单题测试;
-
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+package com.hixingchen.leetCode.简单.L2748_美丽下标对的数目;
 
 public class Solution {
     public int countBeautifulPairs(int[] nums) {
