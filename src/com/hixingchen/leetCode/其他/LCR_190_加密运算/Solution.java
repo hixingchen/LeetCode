@@ -1,7 +1,4 @@
-package com.hixingchen.leetCode.简单题测试;
-
-import java.util.Arrays;
-import java.util.List;
+package com.hixingchen.leetCode.其他.LCR_190_加密运算;
 
 public class Solution {
     public int encryptionCalculate(int dataA, int dataB) {
