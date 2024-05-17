@@ -1,8 +1,6 @@
-package com.hixingchen.leetCode.简单题测试;
+package com.hixingchen.leetCode.其他.LCP_72_补给马车;
 
 import java.util.Arrays;
-import java.util.List;
-import java.util.PriorityQueue;
 
 public class Solution {
     public int[] supplyWagon(int[] supplies) {
