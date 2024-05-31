@@ -1,6 +1,8 @@
-package com.hixingchen.leetCode.简单题测试;
+package com.hixingchen.leetCode.简单.L914_卡牌分组;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 public class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
