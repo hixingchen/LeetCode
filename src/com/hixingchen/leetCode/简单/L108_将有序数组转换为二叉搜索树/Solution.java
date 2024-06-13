@@ -1,6 +1,4 @@
-package com.hixingchen.leetCode.简单题测试;
-
-import java.util.*;
+package com.hixingchen.leetCode.简单.L108_将有序数组转换为二叉搜索树;
 
 public class Solution {
 
@@ -12,10 +10,7 @@ public class Solution {
         if (left > right) {
             return null;
         }
-
-        // 选择任意一个中间位置数字作为根节点
         int mid = (left + right) / 2;
-
         TreeNode root = new TreeNode(nums[mid]);
         root.left = helper(nums, left, mid - 1);
         root.right = helper(nums, mid + 1, right);

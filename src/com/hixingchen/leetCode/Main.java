@@ -4,9 +4,12 @@ package com.hixingchen.leetCode;
 //import com.hixingchen.leetCode.简单.L2427_公因子的数目.Solution.java;
 import com.hixingchen.leetCode.简单题测试.Solution;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
     }
 }
-
